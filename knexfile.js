@@ -10,7 +10,7 @@ const { DATABASE_URL } = process.env;
 
 module.exports = {
   development: {
-    client: "postgresql",
+    client: "pg",
    
    connection: DATABASE_URL,
    migrations: {
